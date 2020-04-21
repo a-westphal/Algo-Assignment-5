@@ -10,7 +10,7 @@ public class TwoWayDirectedGraphDriver {
         boolean[][] matrixUphill = new boolean[6][6];
         boolean[][] matrixDownhill = new boolean[6][6];
 
-        matrixUphill[1][2] = true;
+        matrixUphill[1][2] = true;	// these matrices represent the example from the pdf
         matrixUphill[3][4] = true;
         matrixUphill[3][5] = true;
 
@@ -31,4 +31,3 @@ public class TwoWayDirectedGraphDriver {
         System.out.println(graph.isValidUphillDownhillPath(1, 5));
     }//main
 }
-
